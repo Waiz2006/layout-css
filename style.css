@@ -9,14 +9,14 @@
     p {
     width: 450px;} */
 
-    /* relative position */
-    /* p {
+/* relative position */
+/* p {
         position: relative;
         top: 10px;
         left: 100px;} */
 
-     /*absolute relative */
-     /* h1 {
+/*absolute relative */
+/* h1 {
         position: absolute;
         top: 0px;
         left: 500px;
@@ -24,8 +24,8 @@
         p {
         width: 450px;} */
 
-        /* fixed position */
-        /* h1 {
+/* fixed position */
+/* h1 {
             position: fixed;
             top: 0px;
             left: 50px;
@@ -36,8 +36,8 @@
             p {
             margin-top: 100px;} */
 
-            /* z-index */
-            /* h1 {
+/* z-index */
+/* h1 {
                 position: fixed;
                 top: 0px;
                 left: 0px;
@@ -52,8 +52,8 @@
                 top: 70px;
                 left: 70px;} */
 
-            /* floating background */
-            /* blockquote {
+/* floating background */
+/* blockquote {
                 float: right;
                 width: 275px;
                 font-size: 130%;
@@ -64,8 +64,8 @@
                 border-top: 1px solid #665544;
                 border-bottom: 1px solid #665544;} */
 
-                /* placing elements side by side */
-                /* body {
+/* placing elements side by side */
+/* body {
                     width: 750px;
                     font-family: Arial, Verdana, sans-serif;
                     color: #665544;}
@@ -76,7 +76,7 @@
                     padding: 5px;
                     background-color: #efefef;} */
 
-        /* img{
+/* img{
             width: 250px;
             height: auto;
             float: right;
@@ -87,8 +87,8 @@
             clear: right;
             border: 2px solid blueviolet;
         } */
-          /* creating column using float */
-        .column1of3 {
+/* creating column using float */
+/* .column1of3 {
             float: left;
             width: 300px;
             margin: 10px;
@@ -111,4 +111,106 @@
                 margin: 10px;
                 border: 1px solid black;
                 padding: 10px;
-            }
+            } */
+
+
+/* fixed width layout */
+/* body {
+    width: 960px;
+    margin: 0 auto;
+}
+
+#content {
+    overflow: auto;
+    height: 100%;
+}
+
+#nav,
+#feature,
+#footer {
+    background-color: #efefef;
+    padding: 10px;
+    margin: 10px;
+}
+
+.column1,
+.column2,
+.column3 {
+    background-color: #efefef;
+    width: 300px;
+    float: left;
+    margin: 10px;
+}
+
+li {
+    display: inline;
+    padding: 5px;
+} */
+
+/* body {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#content {
+    overflow: auto;
+}
+
+#nav,
+#feature,
+#footer {
+    margin: 1%;
+}
+
+.column1,
+.column2,
+.column3 {
+    width: 31.3%;
+    float: left;
+    margin: 1%;
+}
+
+.column3 {
+    margin-right: 0%;
+}
+
+li {
+    display: inline;
+    padding: 0.5em;
+}
+
+#nav,
+#footer {
+    background-color: #efefef;
+    padding: 0.5em 0;
+}
+
+#feature,
+.article {
+    height: 10em;
+    margin-bottom: 1em;
+    background-color: #efefef;
+} */
+
+
+/* 960 grid system */
+/* * {
+    font-family: Arial, Verdana, sans-serif;
+    color: #665544;
+    text-align: center;}
+    #nav, #feature, .article, #footer {
+    background-color: #efefef;
+    margin-top: 20px;
+    padding: 10px 0px 5px 0px;}
+    #feature, .article {
+    height: 100px;}
+    li {
+    display: inline;
+    padding: 5px;} */
+    
+    /* multiple styles sheet in css */
+    @import url("./test-style.css");
+
+    #a{
+        color: aqua;
+    }
